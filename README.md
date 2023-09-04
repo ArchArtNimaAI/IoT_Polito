@@ -1,2 +1,2 @@
-# IoT_Polito
+# IoT_Smart_Light
 Repository  for share files
