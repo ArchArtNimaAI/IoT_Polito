@@ -23,7 +23,7 @@ class Sensor():
 	def sendData(self):
 		message=self.__message
 		message['e'][0]['value']=random.randint(0,1) #con movimento o si o no
-		message['e'][1]['value']=random.randint(50,90) #dividere per ore e settare parametri
+		message['e'][1]['value']=random.randint(1000,2000) # read from dataset
 		message['e'][0]['timestamp']=str(time.time()) #ogni quanto
 		message['e'][1]['timestamp']=str(time.time())
 		self.client.myPublish(self.topic,message)
