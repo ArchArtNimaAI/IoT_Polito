@@ -1,0 +1,81 @@
+{"projectOwner": "Group2",
+ "BaseTopic": "SmartLighting/",
+ "URI":"...... ",
+ "lastUpdate": "2023-08-30 18:58",
+ "broker": {"host": "", "port": "",
+     "}",
+ "devicesList": [
+     {
+         "deviceID": 1,
+         "deviceName": "MovementSensor",
+         "measureType": "Movement",
+         "availableServices": ["MQTT", "REST"],
+         "servicesDetails": [
+             {
+                 "serviceType": "MQTT",
+                 "serviceIP": "mqtt.eclipse.org",
+                 "topic": ["SmartLighting/1/Movement"]
+             },
+             {
+                 "serviceType": "REST",
+                 "serviceIP": "dht11.org:8080" #change or not?
+             }
+         ]
+     },
+     {
+         "deviceID": 2,
+         "deviceName": "IlluminationSensor",
+         "measureType": "Illumination",
+         "availableServices": ["MQTT"],
+         "servicesDetails": [
+             {
+                 "serviceType": "MQTT",
+                 "serviceIP": "mqtt.eclipse.org",
+                 "topic": ["SmartLighting/2/Illumination"]
+             }
+         ]
+     },
+     {
+         "deviceID": 3,
+         "deviceName": "Arduino",
+         "measureType": "..",
+         "availableServices": ["REST"],
+         "servicesDetails": [
+             {
+                 "serviceType": "MQTT",
+                 "serviceIP": "mqtt.eclipse.org",
+                 "topic": ["MySmartThingy/3/temp", "MySmartThingy/3/hum"]
+             }
+         ]
+     },
+     {  "deviceID": 4,
+        "deviceName": "Actuator"
+
+     }
+ ],
+"usersList":[
+    {
+        "userID": "1",
+        "userName": "Caterina",
+        "userSurname": "della Fontana",
+        "telegramID or token": ""
+    },
+
+    {
+        "userID": "2",
+        "userName": "",
+        "userSurname": ""
+    },{
+        "userID": "",
+        "userName": "",
+        "userSurname": "",
+        {
+        "userID": "",
+        "userName": "",
+        "userSurname": ""
+    }
+]
+}
+
+
+CODE THAT CAN MANAGE THE CATALOGUE ALSO FROM TELEGRAM BOT
