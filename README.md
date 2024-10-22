@@ -1,4 +1,5 @@
-# IoT_Smart_Light
+# Luminet (Smart Light Controling)
+![image](https://github.com/user-attachments/assets/2c52e011-f81e-4962-8ef6-6a2ad3c0865c)
 
 ## Overview
 The Smart Lighting Control System is an Internet of Things(IoT) project designed to provide intelligent control and monitoring of lighting systems within a building. By automating lighting control based on various factors, such as motion detection and ambient illumination levels, the project aims to enhance energy efficiency, user comfort, and convenience.
