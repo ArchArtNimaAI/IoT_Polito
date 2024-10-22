@@ -7,6 +7,7 @@ The core component, a Controller (Arduino), orchestrates sensor data and control
 A JSON configuration simplifies setup, and the system allows room-level lighting control.
 
 ## Objectives
+![IoT](https://github.com/user-attachments/assets/d6e838c6-1326-4a29-9ace-34644415d712)
 ##### + Objective 1:
 Implement an energy-efficient lighting control system. Promote sustainable energy use and reduce waste.
 ##### + Objective 2:
