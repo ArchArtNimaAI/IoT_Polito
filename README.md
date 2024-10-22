@@ -7,5 +7,9 @@ The core component, a Controller (Arduino), orchestrates sensor data and control
 A JSON configuration simplifies setup, and the system allows room-level lighting control.
 
 ## Objectives
-##### 1- Objective 1:
+##### + Objective 1:
 Implement an energy-efficient lighting control system. Promote sustainable energy use and reduce waste.
+##### + Objective 2:
+Provide user-selectable automatic and manual lighting modes. Enable remote control and monitoring of the lighting system.
+##### + Objective 3:
+Adjust lighting status based on ambient light conditions. Enhance user comfort and atmosphere through smart lighting. 
