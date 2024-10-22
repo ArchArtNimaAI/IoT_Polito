@@ -37,9 +37,9 @@ Customizable widgets and visualizations allow the creation of a dashboard tailor
 ## TELEGRAM BOT:
 I introduce a Telegram bot to control lights, update a catalog, and check sensor and light statuses. The aim is to create an interactive bot that simplifies home automation and
 user monitoring tasks.  
-Communication take place through making connection from user to IoT gateway via HTTP paradigm. Users can easily switch ON/OFF the apartment’s light
-remotely with the assistance of TelegramBot.
-![image](https://github.com/user-attachments/assets/7da180ab-e560-4d81-b059-53553ed4bb11)
+Communication takes place through making connections from the user to the IoT gateway via the HTTP paradigm. Users can easily switch ON/OFF the apartment’s light
+remotely with the assistance of TelegramBot. ![image](https://github.com/user-attachments/assets/7da180ab-e560-4d81-b059-53553ed4bb11)
+
 
 ### USER INTERFACE (Telegram Bot):
 #### + Bot Functionalities:
