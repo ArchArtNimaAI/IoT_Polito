@@ -20,7 +20,7 @@ Adjust lighting status based on ambient light conditions. Enhance user comfort a
 + HTTP (hypertext transfer Protocol)
 
 ## Components:
-+ Sensors:
+(+ Sensors):
 These include motion sensors (PIR) to detect movement in rooms and light sensors (LDR or ambient light sensors) to measure ambient light levels.
 + Actuator:
 These controllable light fixtures can be turned on or off based on sensor data or user commands.
